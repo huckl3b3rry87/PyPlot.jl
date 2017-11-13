@@ -50,7 +50,7 @@ Pkg.build("PyCall")
 The next time you import `PyPlot`, it will tell Conda to install Matplotlib.
 
 ### Using another Matplotlib installation  
-Sometimes, the automated installation of Matlibplot plot does not work. So, if you have installed Matlibplot manually and wish to bypass having PyCall install Matlibplot automatically, then run:
+If you have installed Matlibplot manually and wish to bypass having PyCall install Matlibplot automatically, then run:
 ```
 ENV["PYTHON"]="/usr/bin/python"
 Pkg.build("PyCall")
